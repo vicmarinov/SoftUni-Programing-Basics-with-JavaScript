@@ -15,7 +15,7 @@ function smallShop (product, city, quantity) {
             case "sweets":  console.log(quantity * 1.3);  break;
             case "peanuts": console.log(quantity * 1.5);  break;
         }
-    } else if (city == "Varna") {
+    } else if (city === "Varna") {
         switch (product) {
             case "coffee":   console.log(quantity * 0.45); break;
             case "water":   console.log(quantity * 0.7);  break;
