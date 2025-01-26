@@ -7,7 +7,7 @@ function repainting (nylonCoverQuantity, paintQuantity, paintThinnerQuantity, wo
     // A liter of paint costs 14.50 leva.
     // A liter of paint thinner costs 5.00 leva.
 
-    totalSum += 0.4; // 0.40 leva for pastic bags
+    totalSum += 0.4; // 0.40 leva for plastic bags
     totalSum += 0.3 * totalSum * workHours; // A work hour costs 30 %
 
     console.log(totalSum);

@@ -1,4 +1,4 @@
-function toyShop (tripPrice, puzzlesQuantity, dollsQuantity, tedyBearsQuantity, minionsQuantity, trucksQuantity) {
+function toyShop (tripPrice, puzzlesQuantity, dollsQuantity, teddyBearsQuantity, minionsQuantity, trucksQuantity) {
     // Price list
     // ----------
     // puzzle:       2.60 leva
@@ -7,8 +7,8 @@ function toyShop (tripPrice, puzzlesQuantity, dollsQuantity, tedyBearsQuantity, 
     // minion:       8.20 leva
     // truck:        2.00 leva
 
-    let totalIncome = puzzlesQuantity * 2.6 + dollsQuantity * 3 + tedyBearsQuantity * 4.1 + minionsQuantity * 8.2 + trucksQuantity * 2;
-    let totalQuantity = puzzlesQuantity + dollsQuantity + tedyBearsQuantity + minionsQuantity + trucksQuantity;
+    let totalIncome = puzzlesQuantity * 2.6 + dollsQuantity * 3 + teddyBearsQuantity * 4.1 + minionsQuantity * 8.2 + trucksQuantity * 2;
+    let totalQuantity = puzzlesQuantity + dollsQuantity + teddyBearsQuantity + minionsQuantity + trucksQuantity;
 
     if (totalQuantity >= 50) {
         totalIncome *= 0.75; // 25 % discount

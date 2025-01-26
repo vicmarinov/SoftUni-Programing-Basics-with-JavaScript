@@ -5,7 +5,7 @@ function foodDelivery (chickenMealsNumber, fishMealsNumber, veganMealsNumber) {
     // A vegan meal costs 8.15 leva.
 
     totalSum *= 1.2; // The dessert costs 20 %
-    totalSum += 2.5; // 2.50 leva delivery expences
+    totalSum += 2.5; // 2.50 leva delivery expenses
 
     console.log(totalSum);
 }
