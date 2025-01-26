@@ -1,5 +1,5 @@
 function bonusScore (points) {
-    let bonusPoints = 0;
+    let bonusPoints;
 
     if (points <= 100) {
         bonusPoints = 5;

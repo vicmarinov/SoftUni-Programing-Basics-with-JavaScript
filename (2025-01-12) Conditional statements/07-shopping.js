@@ -15,13 +15,10 @@ function shopping (budget, videoCardsQuantity, processorsQuantity, ramMemoryQuan
         totalSum *= 0.85; // 15 % discount
     }
 
-    let moneyDifference = Math.abs(budget - totalSum);
-    moneyDifference = moneyDifference.toFixed(2);
-
     if (budget >= totalSum) {
-        console.log(`You have ${moneyDifference} leva left!`);
+        console.log(`You have ${(budget - totalSum).toFixed(2)} leva left!`);
     } else {
-        console.log(`Not enough money! You need ${moneyDifference} leva more!`);
+        console.log(`Not enough money! You need ${(totalSum - budget).toFixed(2)} leva more!`);
     }
 }
 

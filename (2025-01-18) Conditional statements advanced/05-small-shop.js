@@ -1,7 +1,7 @@
 function smallShop (product, city, quantity) {
     if (city === "Sofia") {
         switch (product) {
-            case "coffee":   console.log(quantity * 0.5);  break;
+            case "coffee":  console.log(quantity * 0.5);  break;
             case "water":   console.log(quantity * 0.8);  break;
             case "beer":    console.log(quantity * 1.2);  break;
             case "sweets":  console.log(quantity * 1.45); break;
@@ -9,7 +9,7 @@ function smallShop (product, city, quantity) {
         }
     } else if (city  === "Plovdiv") {
         switch (product) {
-            case "coffee":   console.log(quantity * 0.4);  break;
+            case "coffee":  console.log(quantity * 0.4);  break;
             case "water":   console.log(quantity * 0.7);  break;
             case "beer":    console.log(quantity * 1.15); break;
             case "sweets":  console.log(quantity * 1.3);  break;
@@ -17,7 +17,7 @@ function smallShop (product, city, quantity) {
         }
     } else if (city === "Varna") {
         switch (product) {
-            case "coffee":   console.log(quantity * 0.45); break;
+            case "coffee":  console.log(quantity * 0.45); break;
             case "water":   console.log(quantity * 0.7);  break;
             case "beer":    console.log(quantity * 1.1);  break;
             case "sweets":  console.log(quantity * 1.35); break;

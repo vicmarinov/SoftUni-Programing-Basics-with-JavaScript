@@ -1,5 +1,5 @@
 function newHouse (flowersType, flowersQuantity, budget) {
-    let totalCost = 0;
+    let totalCost;
 
     switch (flowersType) {
         case "Roses":

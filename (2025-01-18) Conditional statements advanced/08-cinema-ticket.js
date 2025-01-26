@@ -7,7 +7,7 @@ function cinemaTicket (day) {
         case "Wednesday":
         case "Thursday": console.log(14); break;
         case "Saturday":
-        case "Sunday":   console.log(16); break
+        case "Sunday":   console.log(16); break;
     }
 }
 

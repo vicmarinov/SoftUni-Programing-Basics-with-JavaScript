@@ -1,7 +1,7 @@
 function cinema(projectionType, seatsRows, seatsColumns) {
     let seatsTotal = seatsRows * seatsColumns;
     
-    let income = 0;
+    let income;
 
     switch (projectionType) {
         case "Premiere":

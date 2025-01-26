@@ -16,13 +16,10 @@ function toyShop (tripPrice, puzzlesQuantity, dollsQuantity, teddyBearsQuantity,
 
     totalIncome *= 0.9; // 10 % for rent
 
-    let moneyDifference = Math.abs(totalIncome - tripPrice);
-    moneyDifference = moneyDifference.toFixed(2);
-
     if (totalIncome >= tripPrice) {
-        console.log(`Yes! ${moneyDifference} lv left.`);
+        console.log(`Yes! ${(totalIncome - tripPrice).toFixed(2)} lv left.`);
     } else {
-        console.log(`Not enough money! ${moneyDifference} lv needed.`);
+        console.log(`Not enough money! ${(tripPrice - totalIncome).toFixed(2)} lv needed.`);
     }
 }
 
