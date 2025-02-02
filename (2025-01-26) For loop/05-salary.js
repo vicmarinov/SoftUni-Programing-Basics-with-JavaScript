@@ -1,5 +1,5 @@
 function salary (inputArray) {
-    let tabsQuantity = inputArray[0]
+    let tabsQuantity = inputArray[0];
     let salaryAmount = inputArray[1];
 
     for (let i = 2; i <= tabsQuantity + 1; i++) {
