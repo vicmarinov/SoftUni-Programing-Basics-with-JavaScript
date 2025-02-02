@@ -15,7 +15,7 @@ sumOfNumbers("564891");
 
 
 // A more thoughtful solution
-// ==========================
+// --------------------------
 
 // function sumOfNumbers (num) {
 //     let numberAsString = String(num);
@@ -35,7 +35,8 @@ sumOfNumbers("564891");
 
 
 // An even more thoughtful solution
-// ================================
+// --------------------------------
+
 // function sumOfNumbers (num) {
 //     let digitsSum = 0;
 
