@@ -1,6 +1,6 @@
-function vacationBooksList (pagesNumber, pagesPerHour, daysNumber) {
-    let readingTimeTotal = pagesNumber / pagesPerHour;
-    let readingTimeDaily = readingTimeTotal / daysNumber;
+function vacationBooksList (pagesQuantity, pagesPerHour, daysQuantity) {
+    let readingTimeTotal = pagesQuantity / pagesPerHour;
+    let readingTimeDaily = readingTimeTotal / daysQuantity;
     console.log(readingTimeDaily);
 }
 

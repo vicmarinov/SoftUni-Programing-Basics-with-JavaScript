@@ -1,5 +1,5 @@
-function suppliesForSchool (pensPackagesNumber, markersPackagesNumber, detergentLiters, discountPercent) {
-    let totalSum = pensPackagesNumber * 5.8 + markersPackagesNumber * 7.2 + detergentLiters * 1.2;
+function suppliesForSchool (pensPackagesQuantity, markersPackagesQuantity, detergentQuantity, discountPercent) {
+    let totalSum = pensPackagesQuantity * 5.8 + markersPackagesQuantity * 7.2 + detergentQuantity * 1.2;
     // A package of pens costs 5.80 leva.
     // A package of markers costs 7.20 leva.
     // A liter of the detergent costs 1.20 leva.

@@ -1,5 +1,5 @@
-function foodDelivery (chickenMealsNumber, fishMealsNumber, veganMealsNumber) {
-    totalSum = chickenMealsNumber * 10.35 + fishMealsNumber * 12.4 + veganMealsNumber * 8.15;
+function foodDelivery (chickenMealsQuantity, fishMealsQuantity, veganMealsQuantity) {
+    totalSum = chickenMealsQuantity * 10.35 + fishMealsQuantity * 12.4 + veganMealsQuantity * 8.15;
     // A chicken meal costs 10.35 leva.
     // A fish meal costs 12.40 leva.
     // A vegan meal costs 8.15 leva.
