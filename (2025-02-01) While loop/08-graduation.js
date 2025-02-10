@@ -1,5 +1,6 @@
 function graduation (inputArray) {
     let studentName = inputArray[0];
+
     let hasRepeatedGrade = false;
     let isExcluded = false;
     
@@ -13,11 +14,13 @@ function graduation (inputArray) {
         let mark = Number(inputArray[i]);
 
         if (mark < 4) {
-            hasRepeatedGrade = true;
-        } else if (hasRepeatedGrade) {
-            console.log(`${studentName} has been excluded at ${grade} grade`);
-            isExcluded = true;
-            break;
+            if (hasRepeatedGrade) {
+                console.log(`${studentName} has been excluded at ${grade} grade`);
+                isExcluded = true;
+                break;
+            } else {
+                hasRepeatedGrade = true;    
+            }
         } else {
             marksSum += mark;
             grade++;
@@ -34,3 +37,4 @@ function graduation (inputArray) {
 
 graduation(["Gosho", "5", "5.5", "6", "5.43", "5.5", "6", "5.55", "5", "6", "6", "5.43", "5"]);
 graduation(["Mimi", "5", "6", "5", "6", "5", "6", "6", "2", "3"]);
+graduation(["Chocho", "5", "3", "5", "5", "5", "5", "5", "5", "5", "5", "5", "5", "5"]);
