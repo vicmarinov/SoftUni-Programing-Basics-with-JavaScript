@@ -8,8 +8,8 @@ Course structure
 
 | Lesson topic                      | Lesson type | Date            |
 | --------------------------------- | ----------- | --------------- |
-| First steps in coding             | lecture     | 4 January 2025  |
-| First steps in coding             | exercise    | 5 January 2025  |
+| First steps in coding             | lecture     |  4 January 2025 |
+| First steps in coding             | exercise    |  5 January 2025 |
 | Conditional statements            | lecture     | 11 January 2025 |
 | Conditional statements            | exercise    | 12 January 2025 |
 | Conditional statements (advanced) | lecture     | 18 January 2025 |
